@@ -1,6 +1,6 @@
-package nestviewpager.simple.com.delegationdesignpattern.printers;
+package designpattern.delegation.printers;
 
-import nestviewpager.simple.com.delegationdesignpattern.Printer;
+import designpattern.delegation.Printer;
 
 /**
  * Created by j-yangbo on 2017/7/3.

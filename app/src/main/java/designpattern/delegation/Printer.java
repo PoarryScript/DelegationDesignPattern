@@ -1,4 +1,4 @@
-package nestviewpager.simple.com.delegationdesignpattern;
+package designpattern.delegation;
 
 /**
  * Created by j-yangbo on 2017/7/3.

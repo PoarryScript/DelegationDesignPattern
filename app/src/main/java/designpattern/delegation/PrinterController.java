@@ -1,4 +1,4 @@
-package nestviewpager.simple.com.delegationdesignpattern;
+package designpattern.delegation;
 
 /**
  * Created by j-yangbo on 2017/7/3.
@@ -6,8 +6,8 @@ package nestviewpager.simple.com.delegationdesignpattern;
 /**
  * The delegate pattern provides a mechanism to abstract away the implementation and control of the desired action.
  * The class being called in this case {@link PrinterController} is not responsible for the actual desired action,
- * but is actually delegated to a helper class either {@link nestviewpager.simple.com.delegationdesignpattern.printers.CanonPrinter},
- * {@link nestviewpager.simple.com.delegationdesignpattern.printers.EpsonPrinter} or {@link nestviewpager.simple.com.delegationdesignpattern.printers.HPPrinter}.
+ * but is actually delegated to a helper class either {@link designpattern.delegation.printers.CanonPrinter},
+ * {@link designpattern.delegation.printers.EpsonPrinter} or {@link designpattern.delegation.printers.HPPrinter}.
  * The consumer does not have or require knowledge of the actual class carrying out the action, only the
  * container on which they are calling.
  *
