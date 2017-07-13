@@ -20,14 +20,15 @@
         </activity>
         <activity
                 android:name="designpattern.delegation.DelegationActivityActivity"
-                android:screenOrientation="portrait"
-                android:exported="false">
+                android:exported="false"
+                android:screenOrientation="portrait">
         </activity>
         <activity
                 android:name="designpattern.callback.CallBackActivity"
-                android:screenOrientation="portrait"
                 android:exported="false"
-                >
+                android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="designpattern.builder.BuilderActivity">
         </activity>
     </application>
 

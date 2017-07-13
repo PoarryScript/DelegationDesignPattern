@@ -24,4 +24,14 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"/>
 
+    <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/builder"
+            android:text="builder"
+            android:onClick="callbackClick"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
 </LinearLayout>
