@@ -30,6 +30,8 @@
         </activity>
         <activity android:name="designpattern.builder.BuilderActivity">
         </activity>
+        <activity android:name="designpattern.lazyload.LazyLodingActivity">
+        </activity>
     </application>
 
 </manifest>
