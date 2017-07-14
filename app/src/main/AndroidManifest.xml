@@ -34,6 +34,8 @@
         </activity>
         <activity android:name="designpattern.singleton.SingletonActivity">
         </activity>
+        <activity android:name="designpattern.twin.TwinPatternActivity">
+        </activity>
     </application>
 
 </manifest>

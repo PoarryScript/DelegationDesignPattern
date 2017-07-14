@@ -10,6 +10,7 @@ import designpattern.callback.CallBackActivity;
 import designpattern.delegation.DelegationActivityActivity;
 import designpattern.lazyload.LazyLodingActivity;
 import designpattern.singleton.SingletonActivity;
+import designpattern.twin.TwinPatternActivity;
 import nestviewpager.simple.com.delegationdesignpattern.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void singleton(View view) {
         Intent intent = new Intent(MainActivity.this, SingletonActivity.class);
+        startActivity(intent);
+    }
+    public void twin(View view) {
+        Intent intent = new Intent(MainActivity.this, TwinPatternActivity.class);
         startActivity(intent);
     }
 }
