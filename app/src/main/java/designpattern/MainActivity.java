@@ -9,11 +9,10 @@ import designpattern.builder.BuilderActivity;
 import designpattern.callback.CallBackActivity;
 import designpattern.delegation.DelegationActivityActivity;
 import designpattern.lazyload.LazyLodingActivity;
+import designpattern.singleton.SingletonActivity;
 import nestviewpager.simple.com.delegationdesignpattern.R;
 
 public class MainActivity extends AppCompatActivity {
-
-    Thread thread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void lazyLoding(View view) {
         Intent intent = new Intent(MainActivity.this, LazyLodingActivity.class);
+        startActivity(intent);
+    }
+    public void singleton(View view) {
+        Intent intent = new Intent(MainActivity.this, SingletonActivity.class);
         startActivity(intent);
     }
 }

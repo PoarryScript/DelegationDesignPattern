@@ -32,6 +32,8 @@
         </activity>
         <activity android:name="designpattern.lazyload.LazyLodingActivity">
         </activity>
+        <activity android:name="designpattern.singleton.SingletonActivity">
+        </activity>
     </application>
 
 </manifest>

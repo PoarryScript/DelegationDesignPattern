@@ -15,6 +15,7 @@
             android:onClick="delegationClick"
             android:layout_width="match_parent"
             android:layout_height="50dp"/>
+
     <Button
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
@@ -32,12 +33,22 @@
             android:onClick="builder"
             android:layout_width="match_parent"
             android:layout_height="50dp"/>
-<Button
+
+    <Button
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:id="@+id/lazyLoding"
             android:text="lazyLoding"
             android:onClick="lazyLoding"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/singleton"
+            android:text="singleton"
+            android:onClick="singleton"
             android:layout_width="match_parent"
             android:layout_height="50dp"/>
 
