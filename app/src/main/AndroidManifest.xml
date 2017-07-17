@@ -38,6 +38,8 @@
         </activity>
         <activity android:name="designpattern.nullable.NullAbleActivity">
         </activity>
+        <activity android:name="designpattern.proxy.ProxyActivity">
+        </activity>
     </application>
 
 </manifest>
