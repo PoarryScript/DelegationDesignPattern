@@ -36,6 +36,8 @@
         </activity>
         <activity android:name="designpattern.twin.TwinPatternActivity">
         </activity>
+        <activity android:name="designpattern.nullable.NullAbleActivity">
+        </activity>
     </application>
 
 </manifest>
