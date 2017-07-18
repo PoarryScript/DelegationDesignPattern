@@ -9,6 +9,7 @@ import designpattern.builder.BuilderActivity;
 import designpattern.callback.CallBackActivity;
 import designpattern.delegation.DelegationActivityActivity;
 import designpattern.lazyload.LazyLodingActivity;
+import designpattern.observer.ObserverActivity;
 import designpattern.proxy.ProxyActivity;
 import designpattern.singleton.SingletonActivity;
 import designpattern.twin.TwinPatternActivity;
@@ -52,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void proxy(View view) {
         Intent intent = new Intent(MainActivity.this, ProxyActivity.class);
+        startActivity(intent);
+    } public void observer(View view) {
+        Intent intent = new Intent(MainActivity.this, ObserverActivity.class);
         startActivity(intent);
     }
 }

@@ -40,6 +40,8 @@
         </activity>
         <activity android:name="designpattern.proxy.ProxyActivity">
         </activity>
+        <activity android:name="designpattern.observer.ObserverActivity">
+        </activity>
     </application>
 
 </manifest>
