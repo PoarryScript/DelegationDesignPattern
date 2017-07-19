@@ -12,6 +12,7 @@ import designpattern.lazyload.LazyLodingActivity;
 import designpattern.observer.ObserverActivity;
 import designpattern.proxy.ProxyActivity;
 import designpattern.singleton.SingletonActivity;
+import designpattern.state.StateActivity;
 import designpattern.twin.TwinPatternActivity;
 import nestviewpager.simple.com.delegationdesignpattern.R;
 
@@ -43,19 +44,29 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, LazyLodingActivity.class);
         startActivity(intent);
     }
+
     public void singleton(View view) {
         Intent intent = new Intent(MainActivity.this, SingletonActivity.class);
         startActivity(intent);
     }
+
     public void twin(View view) {
         Intent intent = new Intent(MainActivity.this, TwinPatternActivity.class);
         startActivity(intent);
     }
+
     public void proxy(View view) {
         Intent intent = new Intent(MainActivity.this, ProxyActivity.class);
         startActivity(intent);
-    } public void observer(View view) {
+    }
+
+    public void observer(View view) {
         Intent intent = new Intent(MainActivity.this, ObserverActivity.class);
+        startActivity(intent);
+    }
+
+    public void state(View view) {
+        Intent intent = new Intent(MainActivity.this, StateActivity.class);
         startActivity(intent);
     }
 }

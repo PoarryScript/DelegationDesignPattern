@@ -42,6 +42,8 @@
         </activity>
         <activity android:name="designpattern.observer.ObserverActivity">
         </activity>
+        <activity android:name="designpattern.state.StateActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -7,77 +7,98 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/delegation_btn"
-            android:text="delegation"
-            android:onClick="delegationClick"
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            android:layout_height="wrap_content">
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/callback_btn"
-            android:text="callback"
-            android:onClick="callbackClick"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/builder"
-            android:text="builder"
-            android:onClick="builder"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/delegation_btn"
+                    android:text="delegation"
+                    android:onClick="delegationClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/lazyLoding"
-            android:text="lazyLoding"
-            android:onClick="lazyLoding"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/callback_btn"
+                    android:text="callback"
+                    android:onClick="callbackClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/singleton"
-            android:text="singleton"
-            android:onClick="singleton"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/builder"
+                    android:text="builder"
+                    android:onClick="builder"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/twin"
-            android:text="twin"
-            android:onClick="twin"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/lazyLoding"
+                    android:text="lazyLoding"
+                    android:onClick="lazyLoding"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/proxy"
-            android:text="proxy"
-            android:onClick="proxy"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/singleton"
+                    android:text="singleton"
+                    android:onClick="singleton"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
 
-    <Button
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/observer"
-            android:text="observer"
-            android:onClick="observer"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/twin"
+                    android:text="twin"
+                    android:onClick="twin"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
 
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/proxy"
+                    android:text="proxy"
+                    android:onClick="proxy"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/observer"
+                    android:text="observer"
+                    android:onClick="observer"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/state"
+                    android:text="state"
+                    android:onClick="state"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
