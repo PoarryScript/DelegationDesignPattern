@@ -8,6 +8,7 @@ import android.view.View;
 import designpattern.builder.BuilderActivity;
 import designpattern.callback.CallBackActivity;
 import designpattern.delegation.DelegationActivityActivity;
+import designpattern.factory.FactoryActivity;
 import designpattern.lazyload.LazyLodingActivity;
 import designpattern.observer.ObserverActivity;
 import designpattern.proxy.ProxyActivity;
@@ -67,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void state(View view) {
         Intent intent = new Intent(MainActivity.this, StateActivity.class);
+        startActivity(intent);
+    }
+    public void factory(View view) {
+        Intent intent = new Intent(MainActivity.this, FactoryActivity.class);
         startActivity(intent);
     }
 }

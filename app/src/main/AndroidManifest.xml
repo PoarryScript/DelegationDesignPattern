@@ -44,6 +44,8 @@
         </activity>
         <activity android:name="designpattern.state.StateActivity">
         </activity>
+        <activity android:name="designpattern.factory.FactoryActivity">
+        </activity>
     </application>
 
 </manifest>
