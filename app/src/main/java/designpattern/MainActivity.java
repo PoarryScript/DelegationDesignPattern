@@ -7,6 +7,7 @@ import android.view.View;
 
 import designpattern.builder.BuilderActivity;
 import designpattern.callback.CallBackActivity;
+import designpattern.decorator.DecoratorActivity;
 import designpattern.delegation.DelegationActivityActivity;
 import designpattern.factory.FactoryActivity;
 import designpattern.lazyload.LazyLodingActivity;
@@ -72,6 +73,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void factory(View view) {
         Intent intent = new Intent(MainActivity.this, FactoryActivity.class);
+        startActivity(intent);
+    }
+
+    public void decorator(View view) {
+        Intent intent = new Intent(MainActivity.this, DecoratorActivity.class);
         startActivity(intent);
     }
 }

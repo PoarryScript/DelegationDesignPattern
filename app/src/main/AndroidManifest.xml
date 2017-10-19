@@ -46,6 +46,8 @@
         </activity>
         <activity android:name="designpattern.factory.FactoryActivity">
         </activity>
+        <activity android:name="designpattern.decorator.DecoratorActivity">
+        </activity>
     </application>
 
 </manifest>

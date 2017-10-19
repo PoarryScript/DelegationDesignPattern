@@ -106,6 +106,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"/>
 
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/decorator"
+                    android:text="decorator"
+                    android:onClick="decorator"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
         </LinearLayout>
 
     </ScrollView>
